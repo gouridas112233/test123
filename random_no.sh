@@ -13,4 +13,5 @@ echo "++ First 10 sum: $s10"
 echo "++ First 100 sum: $s100"
 echo "++ First 1000 sum: $s1000"
 uptime
+free -g
 # all done
