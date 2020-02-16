@@ -4,7 +4,7 @@
 #------------------------------------------
 prog=$0
 SHUF=/usr/bin/shuf
-
+echo "== $prog run by `whoami` from `hostname -f` on `date`"
 echo "=== Generate random numbers and add them"
 s10=`$SHUF -i 1-10|awk 'BEGIN {s=0} {s += $NF} END {print s}'`
 s100=`$SHUF -i 1-100 | awk 'BEGIN {s=0} {s += $NF} END {print s}'`
