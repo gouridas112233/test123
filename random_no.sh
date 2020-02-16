@@ -12,3 +12,4 @@ s1000=`$SHUF -i 1-1000 | awk 'BEGIN {s=0} {s += $NF} END {print s}'`
 echo "++ First 10 sum: $s10"
 echo "++ First 100 sum: $s100"
 echo "++ First 1000 sum: $s1000"
+# all done
